@@ -1,28 +1,34 @@
 /* Darktheme colors */
-:root { 
+:root {
+  /* ── Dark theme (main) ── */
+  --bg-1:        #0f0b14;        /* deeper, richer black-purple */
+  --bg-2:        #05030a;        /* almost pure black but warmish */
+  --surface-1:   #1a1422;        /* cards, panels – main surface */
+  --surface-2:   #221a2e;        /* hovered / elevated surfaces */
+  --text-main:   #f8f4ff;        /* very soft white – better readability */
+  --text-muted:  rgba(240, 230, 255, 0.58);
+  --text-subtle: rgba(220, 210, 245, 0.38);
 
-  --bg-1: #281e2f;
-  --bg-2: #000000;
+  --border-subtle: rgba(180, 140, 255, 0.14);
+  --border-strong: rgba(180, 140, 255, 0.28);
 
-  --text-main: #ffffff;
-  --text-muted: rgba(255, 255, 255, 0.626);
-  --text-muted-2: rgba(255, 255, 255, 0.652);
+  /* Accents – toned down saturation, more neon-but-classy */
+  --accent:      #bb86fc;        /* softer violet-crayola */
+  --accent-glow: #d0a0ff33;      /* 20% opacity glow */
 
-  --border-1: rgba(255, 255, 255, 0.322);
-  --border-2: rgba(255, 255, 255, 0.319);
+  --cyan:        #00e0ff;
+  --cyan-glow:   #00e0ff1f;
 
-  --accent-cyan: cyan;
-  --accent-violet: violet;
-  --accent-status: rgb(153, 0, 153);
-  --not-completed: rgb(150, 73, 0);
-  --filter-grad-1: rgba(161, 0, 83, 0.589);
-  --filter-grad-2: rgba(161, 0, 83, 0.829);
-  --filter-focus: rgba(245, 0, 127, 0.999);
-  --filter-glow: rgba(255, 0, 68, 0.234);
+  --pink:        #ff4d94;
+  --pink-glow:   #ff4d9426;
 
-  --banner-glass: rgba(255, 255, 255, 0.06);
+  --gradient-filter: linear-gradient(90deg, #7c2ae8, #d81e5b);
+  --gradient-filter-hover: linear-gradient(90deg, #9d4aff, #ff3d77);
 
-  --popup-bg: rgba(0, 0, 0, 0.85);
+  --glass:       rgba(30, 20, 50, 0.38);
+  --glass-border: rgba(120, 80, 220, 0.18);
+  --popup-bg:    rgba(12, 8, 22, 0.92);
+}
 
   /* Lighttheme colors */
 .light-theme {
