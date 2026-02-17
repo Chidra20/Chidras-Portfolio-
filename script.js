@@ -12,6 +12,17 @@ const works = [
       "This is a more detailed info about the project. I will explain what I used, what I learned, and the time it took me to finish it from the start.",
   },
   {
+    name: "Extension filtering",
+    status: true,
+    info: "A simple DOM project to practice my JS",
+    tags: ["web", "design", "Front-end"],
+    img: "C:/Users/mamuka.chidrashvili/Pictures/Screenshots/Skärmbild 2026-02-17 124708.png",
+    dataType: "web",
+    gallery: [],
+    detailInfo:
+      "This is a more detailed info about the project. I will explain what I used, what I learned, and the time it took me to finish it from the start."
+  },
+  {
     name: "A local AI chatbot",
     status: true,
     info: "My first AI-related work. A fully functional chatbot, run locally that can make google maps API calls.",
